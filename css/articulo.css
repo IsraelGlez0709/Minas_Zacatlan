@@ -1,0 +1,255 @@
+.main-content {
+    margin-top: 76px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.single-article-section {
+    background-color: #ffffff;
+    padding: 80px 0 120px 0;
+}
+
+.article-container {
+    max-width: 1000px; 
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.article-title {
+    color: #00385d;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.article-img-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #a6a6a6;
+}
+
+.article-hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.article-meta {
+    margin-bottom: 40px;
+}
+
+.meta-title {
+    color: #00385d;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+}
+
+.meta-categoria {
+    color: #a0a0a0;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.meta-autor {
+    color: #7b9bb0;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.article-body p {
+    color: #2b5674;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.sugerencias-section {
+    margin-top: 80px;
+    padding-top: 50px;
+    border-top: 1px solid #eeeeee;
+}
+
+.sugerencias-title {
+    text-align: center;
+    color: #00385d;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.sugerencias-slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+}
+
+.slider-btn {
+    background: transparent;
+    border: none;
+    color: #7b9bb0;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+    z-index: 10;
+}
+
+.slider-btn:hover {
+    color: #00385d;
+    transform: scale(1.2);
+}
+
+.sugerencias-track-wrapper {
+    width: 100%;
+    max-width: 850px;
+    overflow: hidden;
+}
+
+.sugerencias-track {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.sugerencia-card {
+    flex: 0 0 calc((100% - 60px) / 3);
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.sugerencia-card:hover {
+    transform: translateY(-5px);
+}
+
+.sugerencia-img {
+    width: 100%;
+    aspect-ratio: 1 / 1.05;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #a6a6a6;
+    margin-bottom: 15px;
+}
+
+.sugerencia-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sugerencia-info {
+    text-align: center;
+}
+
+.sugerencia-info h4 {
+    color: #00385d;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+}
+
+.sugerencia-info p {
+    color: #a0a0a0;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media only screen and (min-width: 1920px) {
+    .single-article-section {
+        max-width: 1920px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+}
+
+@media only screen and (max-width: 1248px) {
+}
+
+@media only screen and (max-width: 998px) {
+    .single-article-section {
+        padding: 60px 0 80px 0;
+    }
+    .article-title {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+    .sugerencias-title {
+        font-size: 24px;
+    }
+    .sugerencia-card {
+        flex: 0 0 calc((100% - 30px) / 2);
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .article-container {
+        padding: 0 20px;
+    }
+    .single-article-section {
+        padding: 40px 0 60px 0;
+    }
+    .article-title {
+        font-size: 26px;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+    }
+    .meta-title {
+        font-size: 16px;
+    }
+    .meta-categoria, .meta-autor {
+        font-size: 14px;
+    }
+    .article-body p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .sugerencias-section {
+        margin-top: 50px;
+        padding-top: 30px;
+    }
+    .sugerencias-title {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .sugerencias-slider-container {
+        gap: 10px;
+    }
+    .sugerencia-card {
+        flex: 0 0 100%;
+    }
+    .slider-btn {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .article-container {
+        padding: 0 15px;
+    }
+    .article-title {
+        font-size: 22px;
+    }
+    .slider-btn {
+        font-size: 20px;
+    }
+}

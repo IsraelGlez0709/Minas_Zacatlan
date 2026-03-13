@@ -1,0 +1,3 @@
+<section class="mapa-section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60552.96990473276!2d-97.4486513987719!3d18.45824833285421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c582bb9b474927%3A0x181452bc07d211eb!2zVGVodWFjw6FuLCBQdWUu!5e0!3m2!1ses!2smx!4v1773441903988!5m2!1ses!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>

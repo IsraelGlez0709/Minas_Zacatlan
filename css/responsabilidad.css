@@ -1,0 +1,437 @@
+.main-content {
+    margin-top: 76px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.hero-responsabilidad {
+    position: relative;
+    width: 100%;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #00385d;
+}
+
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 56, 93, 0.4) 0%, rgba(0, 56, 93, 0.8) 100%);
+    z-index: 2;
+}
+
+.hero-title-box {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.4); 
+    padding: 12px 35px; 
+}
+
+.hero-title-box h1 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.compromiso-section {
+    background-color: #ffffff;
+    padding: 80px 0 0;
+    position: relative;
+}
+
+.compromiso-header {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto 60px auto;
+    padding: 0 40px;
+}
+
+.compromiso-header h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.compromiso-header h2 .light-blue {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.compromiso-header h2 .dark-blue {
+    color: #00385d;
+    font-weight: 800;
+}
+
+.compromiso-header p {
+    color: #00385d;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.slider-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.compromiso-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.compromiso-img {
+    flex: 0 0 450px;
+    height: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.compromiso-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.compromiso-text {
+    flex: 1;
+}
+
+.compromiso-text h3 {
+    font-size: 32px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.compromiso-text h3 .dark-blue {
+    color: #00385d;
+    font-weight: 900;
+}
+
+.compromiso-text h3 .light-blue {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.compromiso-text .objetivo {
+    color: #00385d;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.compromiso-text .objetivo strong {
+    font-weight: 800;
+}
+
+.compromiso-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.compromiso-text ul li {
+    color: #517b94;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.compromiso-text ul li::before {
+    content: "•";
+    color: #00385d;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.slider-dots .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #8da9bc; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 0;
+}
+
+.slider-dots .dot.active {
+    background-color: #00385d; 
+}
+
+.parque-solar-section {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.parque-solar-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.parque-solar-text {
+    flex: 1;
+}
+
+.parque-solar-text h2 {
+    font-size: 38px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.parque-solar-text h2 .dark-blue {
+    color: #00385d;
+    font-weight: 900;
+}
+
+.parque-solar-text h2 .light-blue {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.parque-solar-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.parque-solar-text ul li {
+    color: #2b5674;
+    font-size: 14px;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.parque-solar-text ul li strong {
+    color: #00385d;
+    font-weight: 800;
+}
+
+.parque-solar-text ul li::before {
+    content: "•";
+    color: #00385d;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+.parque-solar-img {
+    flex: 0 0 550px;
+    height: 320px;
+}
+
+.parque-solar-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.banner-valor-compartido {
+    background-color: #00385d;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.banner-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.banner-container h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner-container h2 .light-blue {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.banner-container h2 .white {
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.banner-container p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 50px;
+}
+
+@media only screen and (min-width: 1920px) {
+    .hero-responsabilidad,
+    .compromiso-section,
+    .parque-solar-section,
+    .banner-valor-compartido {
+        max-width: 1920px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+}
+
+@media only screen and (max-width: 1248px) {
+    .compromiso-card {
+        gap: 30px;
+    }
+    .compromiso-img {
+        flex: 0 0 400px;
+    }
+    .parque-solar-container {
+        gap: 40px;
+    }
+    .parque-solar-img {
+        flex: 0 0 450px;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .compromiso-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .compromiso-img {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+    }
+    .compromiso-text ul li {
+        text-align: left;
+    }
+    .parque-solar-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .parque-solar-img {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+    .parque-solar-text ul li {
+        text-align: left;
+    }
+    .compromiso-header h2,
+    .compromiso-text h3,
+    .parque-solar-text h2,
+    .banner-container h2 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .hero-responsabilidad {
+        height: 250px;
+    }
+    .hero-title-box h1 {
+        font-size: 28px;
+    }
+    .compromiso-section,
+    .parque-solar-section,
+    .banner-valor-compartido {
+        padding: 50px 0;
+    }
+    .compromiso-header,
+    .parque-solar-container,
+    .banner-container {
+        padding: 0 20px;
+    }
+    .compromiso-img,
+    .parque-solar-img {
+        height: 200px;
+        border-radius: 20px;
+    }
+    .banner-container p {
+        padding: 0;
+    }
+    .compromiso-header h2,
+    .compromiso-text h3,
+    .parque-solar-text h2,
+    .banner-container h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-title-box h1 {
+        font-size: 22px;
+    }
+    .compromiso-header h2,
+    .compromiso-text h3,
+    .parque-solar-text h2,
+    .banner-container h2 {
+        font-size: 24px;
+    }
+}

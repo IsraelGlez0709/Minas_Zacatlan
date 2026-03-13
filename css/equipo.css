@@ -1,0 +1,85 @@
+.equipo-section {
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 0; 
+}
+
+.equipo-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.equipo-header h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.equipo-header h2 .dark-blue {
+    color: #00385d;
+    font-weight: 900;
+}
+
+.equipo-header h2 .light-blue {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.equipo-imagen {
+    width: 100%;
+    line-height: 0;
+}
+
+.equipo-imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 1920px) {
+    .equipo-section {
+        max-width: 1920px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+}
+
+@media only screen and (max-width: 1248px) {
+}
+
+@media only screen and (max-width: 998px) {
+    .equipo-section {
+        padding-top: 60px;
+    }
+    
+    .equipo-header h2 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .equipo-section {
+        padding-top: 50px;
+    }
+    
+    .equipo-header {
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    
+    .equipo-header h2 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .equipo-header h2 {
+        font-size: 24px;
+    }
+}

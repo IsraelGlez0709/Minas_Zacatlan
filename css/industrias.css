@@ -1,0 +1,201 @@
+.industrias-section {
+    background-color: #ffffff;
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%; 
+}
+
+.industrias-header {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    padding: 0 40px;
+}
+
+.industrias-header h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.industrias-header h2 .text-dark {
+    color: #00385d;
+}
+
+.industrias-header h2 .text-light {
+    color: #8da9bc;
+}
+
+.industrias-header p {
+    color: #517b94;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.industrias-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+.industria-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00385d;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 2;
+}
+
+.card-content {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-icon {
+    width: 110px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease;
+}
+
+.card-content h3 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    transition: transform 0.4s ease;
+}
+
+.card-text {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0; 
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: left;
+    padding: 0 35px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.card-text p {
+    margin-bottom: 10px;
+}
+
+.card-text strong {
+    font-weight: 800;
+}
+
+.industria-card:hover .card-overlay {
+    opacity: 1; 
+}
+
+.industria-card:hover .card-icon,
+.industria-card:hover h3 {
+    transform: translateY(-15px); 
+}
+
+.industria-card:hover .card-text {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+@media only screen and (min-width: 1920px) {
+    .industrias-section {
+        max-width: 1920px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+}
+
+@media only screen and (max-width: 1248px) {
+}
+
+@media only screen and (max-width: 998px) {
+    .industrias-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .industrias-header h2 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .industrias-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .industrias-header {
+        padding: 0 20px;
+    }
+    
+    .industrias-header h2 {
+        font-size: 28px;
+    }
+    
+    .card-icon {
+        width: 80px;
+        margin-bottom: 15px;
+    }
+    
+    .card-content h3 {
+        font-size: 22px;
+    }
+    
+    .card-text {
+        padding: 0 20px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .industrias-header h2 {
+        font-size: 24px;
+    }
+    
+    .card-content h3 {
+        font-size: 18px;
+    }
+}

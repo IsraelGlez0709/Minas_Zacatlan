@@ -1,0 +1,449 @@
+.main-content {
+    margin-top: 76px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-nosotros {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #00385d;
+}
+
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 56, 93, 0.3) 0%, rgba(0, 56, 93, 0.9) 100%);
+    z-index: 2;
+}
+
+.hero-title-box {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 12px 35px;
+}
+
+.hero-title-box h1 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.calidad-proposito {
+    position: relative;
+    width: 100%;
+    padding: 80px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.curvas-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.curvas-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.calidad-container {
+    position: relative;
+    z-index: 10;
+    max-width: 1300px;
+    padding: 0 40px;
+}
+
+.calidad-container h2 {
+    font-size: 38px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.calidad-container h2 .light-blue {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.calidad-container h2 .dark-blue {
+    color: #00385d;
+    font-weight: 900;
+}
+
+.calidad-container p {
+    color: #00385d;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin: 0;
+    text-align: justify;
+}
+
+.calidad-container p strong {
+    font-weight: 800;
+}
+
+.valores-section {
+    background-color: #ffffff;
+    padding: 80px 0 100px 0;
+    position: relative;
+}
+
+.valores-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.valores-container h2 {
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.valores-container h2 .text-dark {
+    color: #00385d;
+    font-weight: 800;
+}
+
+.valores-container h2 .text-light {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.valores-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.valores-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.valores-list li {
+    color: #517b94;
+    font-size: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.valores-list li strong {
+    color: #00385d;
+    font-weight: 800;
+}
+
+.valores-list li::before {
+    content: "•";
+    color: #00385d;
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+
+.btn-centered {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #6b93ab;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 16px 85px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-centered:hover {
+    background-color: #00385d;
+}
+
+.certificaciones-section {
+    position: relative;
+    padding: 80px 0 100px 0;
+    background-color: #fcfcfc;
+    background-image: radial-gradient(#d3d3d3 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.cert-header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0 40px;
+}
+
+.cert-header h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.cert-header h2 .dark-blue {
+    color: #00385d;
+    font-weight: 800;
+}
+
+.cert-header h2 .light-blue {
+    color: #8da9bc;
+    font-weight: 800;
+}
+
+.cert-header p {
+    color: #2b5674;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.slider-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.slider-track {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.pildora-box {
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 150px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.pildora-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: contain;
+}
+
+.pildora-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.pildora-badge {
+    flex: 0 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.pildora-badge img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.pildora-text p {
+    color: #00385d;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0;
+    padding-right: 60px;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #8da9bc;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 0;
+}
+
+.dot.active {
+    background-color: #00385d;
+}
+
+.dot:hover {
+    background-color: #517b94;
+}
+
+@media only screen and (min-width: 1920px) {
+    .calidad-proposito,
+    .valores-section,
+    .certificaciones-section {
+        max-width: 1920px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 1248px) {
+}
+
+@media only screen and (max-width: 1248px) {
+    .valores-grid {
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .calidad-proposito {
+        padding: 60px 0;
+    }
+    .calidad-container h2 {
+        font-size: 32px;
+    }
+    .valores-section {
+        padding: 60px 0 80px 0;
+    }
+    .valores-container h2 {
+        font-size: 32px;
+    }
+    .valores-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .cert-header h2 {
+        font-size: 32px;
+    }
+    .pildora-box {
+        height: auto;
+        border-radius: 20px;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .pildora-bg {
+        object-fit: cover;
+    }
+    .pildora-content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    }
+    .pildora-badge {
+        flex: 0 0 auto;
+        width: 150px;
+        height: 150px;
+    }
+    .pildora-text p {
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .hero-nosotros {
+        height: 250px;
+    }
+    .hero-title-box h1 {
+        font-size: 28px;
+    }
+    .calidad-container,
+    .valores-container,
+    .cert-header {
+        padding: 0 20px;
+    }
+    .calidad-container h2,
+    .valores-container h2,
+    .cert-header h2 {
+        font-size: 28px;
+    }
+    .valores-list li {
+        font-size: 14px;
+    }
+    .btn-centered {
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-title-box h1 {
+        font-size: 22px;
+    }
+    .calidad-container h2,
+    .valores-container h2,
+    .cert-header h2 {
+        font-size: 24px;
+    }
+}
